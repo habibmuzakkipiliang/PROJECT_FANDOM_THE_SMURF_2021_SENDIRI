@@ -22,7 +22,7 @@ body {
 }
 
 .hover-lift:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
@@ -56,4 +56,19 @@ body {
 
 nav {
   backdrop-filter: blur(10px);
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.card-img-top.character-img {
+  border-radius: 12px 12px 0 0;
+}
+
+.season-card {
+  border-radius: 12px;
+  overflow: hidden;
 }
