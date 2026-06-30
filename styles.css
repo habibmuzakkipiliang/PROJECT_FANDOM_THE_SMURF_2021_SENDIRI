@@ -1,0 +1,59 @@
+/* Custom CSS for The Smurfs 2021 Fandom Website */
+:root {
+  --primary-blue: #0d6efd;
+  --smurf-blue: #0066ff;
+  --smurf-light: #66b3ff;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #0066ff 0%, #00ccff 100%);
+  padding: 80px 0;
+}
+
+.hover-lift {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.character-img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.season-card .list-group-item {
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 12px 16px;
+}
+
+.season-card .list-group-item:last-child {
+  border-bottom: none;
+}
+
+.bg-pink {
+  background-color: #e83e8c !important;
+}
+
+.bg-orange {
+  background-color: #fd7e14 !important;
+}
+
+.bg-purple {
+  background-color: #6f42c1 !important;
+}
+
+nav {
+  backdrop-filter: blur(10px);
+}
